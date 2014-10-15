@@ -34,12 +34,12 @@ struct Node
 	}
 	
  	friend bool operator < (Node x, Node y)
-    {
+    	{
          if(x.cost != y.cost)
               return x.cost > y.cost;
          else
               return x.name > y.name;
-    }
+    	}
 };
 
 struct cmp_bfs
